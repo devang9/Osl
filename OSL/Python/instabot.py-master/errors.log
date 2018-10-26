@@ -1,0 +1,1257 @@
+ERROR:root:Except on unfollow... Looks like a network error
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 377, in _make_request
+    httplib_response = conn.getresponse(buffering=True)
+TypeError: getresponse() got an unexpected keyword argument 'buffering'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 666, in unfollow_on_cleanup
+    unfollow = self.s.post(url_unfollow)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 559, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\adapters.py", line 445, in send
+    timeout=timeout
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\http\client.py", line 1331, in getresponse
+    response.begin()
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\http\client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\ssl.py", line 1009, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\ssl.py", line 871, in read
+    return self._sslobj.read(len, buffer)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\ssl.py", line 631, in read
+    v = self._sslobj.read(len, buffer)
+KeyboardInterrupt
+ERROR:root:Except on unfollow... Looks like a network error
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 377, in _make_request
+    httplib_response = conn.getresponse(buffering=True)
+TypeError: getresponse() got an unexpected keyword argument 'buffering'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 666, in unfollow_on_cleanup
+    unfollow = self.s.post(url_unfollow)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 559, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\adapters.py", line 445, in send
+    timeout=timeout
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\http\client.py", line 1331, in getresponse
+    response.begin()
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\http\client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\ssl.py", line 1009, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\ssl.py", line 871, in read
+    return self._sslobj.read(len, buffer)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\ssl.py", line 631, in read
+    v = self._sslobj.read(len, buffer)
+KeyboardInterrupt
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 446, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 446, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 446, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 447, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 447, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 447, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 447, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 447, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 447, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 449, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 449, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 449, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 449, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 450, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 450, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 450, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 450, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 449, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 449, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 447, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 447, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 449, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 449, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 448, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 448, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 449, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 449, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 449, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 449, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 447, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 447, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 448, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 448, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 449, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 449, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 448, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 448, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 448, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 448, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 448, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 448, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 448, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 448, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 448, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 448, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 449, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 449, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 447, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on get_userinfo_by_name
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 447, in get_userinfo_by_name
+    all_data = json.loads(r.text)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Except on like!
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 171, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\util\connection.py", line 56, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 343, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 849, in _validate_conn
+    conn.connect()
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 314, in connect
+    conn = self._new_conn()
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 180, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x02D8AFD0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\adapters.py", line 445, in send
+    timeout=timeout
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /web/likes/1842800562505361378/like/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x02D8AFD0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 595, in like
+    like = self.s.post(url_likes)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 559, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /web/likes/1842800562505361378/like/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x02D8AFD0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+ERROR:root:Except on like!
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 171, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\util\connection.py", line 56, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 343, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 849, in _validate_conn
+    conn.connect()
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 314, in connect
+    conn = self._new_conn()
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 180, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x02DB5170>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\adapters.py", line 445, in send
+    timeout=timeout
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /web/likes/1842800519775304321/like/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x02DB5170>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 595, in like
+    like = self.s.post(url_likes)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 559, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /web/likes/1842800519775304321/like/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x02DB5170>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+ERROR:root:Except on like!
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 171, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\util\connection.py", line 56, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 343, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 849, in _validate_conn
+    conn.connect()
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 314, in connect
+    conn = self._new_conn()
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 180, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x02DB5650>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\adapters.py", line 445, in send
+    timeout=timeout
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /web/likes/1842800450502199975/like/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x02DB5650>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 595, in like
+    like = self.s.post(url_likes)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 559, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /web/likes/1842800450502199975/like/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x02DB5650>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+ERROR:root:Except on like!
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 171, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\util\connection.py", line 56, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 343, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 849, in _validate_conn
+    conn.connect()
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 314, in connect
+    conn = self._new_conn()
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 180, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x02DB51F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\adapters.py", line 445, in send
+    timeout=timeout
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /web/likes/1842800385597709148/like/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x02DB51F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 595, in like
+    like = self.s.post(url_likes)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 559, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /web/likes/1842800385597709148/like/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x02DB51F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+ERROR:root:Except on like!
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 171, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\util\connection.py", line 56, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 343, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 849, in _validate_conn
+    conn.connect()
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 314, in connect
+    conn = self._new_conn()
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 180, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x02DB57F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\adapters.py", line 445, in send
+    timeout=timeout
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /web/likes/1842800302584215808/like/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x02DB57F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 595, in like
+    like = self.s.post(url_likes)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 559, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /web/likes/1842800302584215808/like/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x02DB57F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+ERROR:root:Except on like!
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 171, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\util\connection.py", line 56, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 343, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 849, in _validate_conn
+    conn.connect()
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 314, in connect
+    conn = self._new_conn()
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 180, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x02DB5C30>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\adapters.py", line 445, in send
+    timeout=timeout
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /web/likes/1842799455846777723/like/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x02DB5C30>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 595, in like
+    like = self.s.post(url_likes)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 559, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /web/likes/1842799455846777723/like/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x02DB5C30>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+ERROR:root:Except on like!
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 171, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\util\connection.py", line 56, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 343, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 849, in _validate_conn
+    conn.connect()
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 314, in connect
+    conn = self._new_conn()
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 180, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x02D6F530>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\adapters.py", line 445, in send
+    timeout=timeout
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /web/likes/1842799432032513627/like/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x02D6F530>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 595, in like
+    like = self.s.post(url_likes)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 559, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /web/likes/1842799432032513627/like/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x02D6F530>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+ERROR:root:Except on like!
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 171, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\util\connection.py", line 56, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 343, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 849, in _validate_conn
+    conn.connect()
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 314, in connect
+    conn = self._new_conn()
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 180, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x02D6F530>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\adapters.py", line 445, in send
+    timeout=timeout
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /web/likes/1842798461437378797/like/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x02D6F530>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 595, in like
+    like = self.s.post(url_likes)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 559, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /web/likes/1842798461437378797/like/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x02D6F530>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+ERROR:root:Except on like!
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 171, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\util\connection.py", line 56, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 343, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 849, in _validate_conn
+    conn.connect()
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 314, in connect
+    conn = self._new_conn()
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 180, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x02D6FC10>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\adapters.py", line 445, in send
+    timeout=timeout
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /web/likes/1842657158867340335/like/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x02D6FC10>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 595, in like
+    like = self.s.post(url_likes)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 559, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /web/likes/1842657158867340335/like/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x02D6FC10>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+ERROR:root:Except on like!
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 171, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\util\connection.py", line 56, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 343, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 849, in _validate_conn
+    conn.connect()
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 314, in connect
+    conn = self._new_conn()
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 180, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x02D8AFD0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\adapters.py", line 445, in send
+    timeout=timeout
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /web/likes/1842324846627545698/like/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x02D8AFD0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 595, in like
+    like = self.s.post(url_likes)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 559, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /web/likes/1842324846627545698/like/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x02D8AFD0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+ERROR:root:Except on unfollow... Looks like a network error
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 691, in unfollow_on_cleanup
+    self.follow_counter)
+KeyboardInterrupt
+ERROR:root:Except on unfollow... Looks like a network error
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 680, in unfollow_on_cleanup
+    time.sleep(300)
+KeyboardInterrupt
+ERROR:root:Except on unfollow... Looks like a network error
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 680, in unfollow_on_cleanup
+    time.sleep(300)
+KeyboardInterrupt
+ERROR:root:Except on unfollow... Looks like a network error
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 680, in unfollow_on_cleanup
+    time.sleep(300)
+KeyboardInterrupt
+ERROR:root:Except on unfollow... Looks like a network error
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 691, in unfollow_on_cleanup
+    time.sleep(300)
+KeyboardInterrupt
+ERROR:root:Except on unfollow... Looks like a network error
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 680, in unfollow_on_cleanup
+    time.sleep(300)
+KeyboardInterrupt
+ERROR:root:Except on like!
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 377, in _make_request
+    httplib_response = conn.getresponse(buffering=True)
+TypeError: getresponse() got an unexpected keyword argument 'buffering'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 597, in like
+    last_liked_media_id = media_id
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 559, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\adapters.py", line 445, in send
+    timeout=timeout
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\http\client.py", line 1331, in getresponse
+    response.begin()
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\http\client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\ssl.py", line 1009, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\ssl.py", line 871, in read
+    return self._sslobj.read(len, buffer)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\ssl.py", line 631, in read
+    v = self._sslobj.read(len, buffer)
+KeyboardInterrupt
+ERROR:root:Except on unfollow... Looks like a network error
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 680, in unfollow_on_cleanup
+    unfollow = self.s.post(url_unfollow)
+KeyboardInterrupt
+ERROR:root:Except on like!
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 377, in _make_request
+    httplib_response = conn.getresponse(buffering=True)
+TypeError: getresponse() got an unexpected keyword argument 'buffering'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 598, in like
+    like = self.s.post(url_likes)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 559, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\adapters.py", line 445, in send
+    timeout=timeout
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\http\client.py", line 1331, in getresponse
+    response.begin()
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\http\client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\ssl.py", line 1009, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\ssl.py", line 871, in read
+    return self._sslobj.read(len, buffer)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\ssl.py", line 631, in read
+    v = self._sslobj.read(len, buffer)
+KeyboardInterrupt
+ERROR:root:Except on follow!
+Traceback (most recent call last):
+  File "C:\Users\DEVANGCHHEDA\Desktop\instabot.py-master\src\instabot.py", line 638, in follow
+    follow = self.s.post(url_follow)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 559, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\adapters.py", line 445, in send
+    timeout=timeout
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 343, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 849, in _validate_conn
+    conn.connect()
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 356, in connect
+    ssl_context=context)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\util\ssl_.py", line 359, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\ssl.py", line 407, in wrap_socket
+    _context=self, _session=session)
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\ssl.py", line 814, in __init__
+    self.do_handshake()
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\ssl.py", line 1068, in do_handshake
+    self._sslobj.do_handshake()
+  File "C:\Users\DEVANGCHHEDA\AppData\Local\Programs\Python\Python36-32\lib\ssl.py", line 689, in do_handshake
+    self._sslobj.do_handshake()
+KeyboardInterrupt
